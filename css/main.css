@@ -1,0 +1,16 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #f0eee8;
+}
+
+h2 {
+  font-family: "Dosis", sans-serif;
+}
