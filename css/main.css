@@ -14,7 +14,8 @@ html {
   background-color: #dcd4cd;
   text-decoration: none;
   color: #512200;
-  padding: 1rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
   border: 3px solid #9a816d;
   border-radius: 8px;
 }
@@ -26,12 +27,12 @@ html {
 }
 
 .btn {
+  display: inline-block;
   background-color: #785439;
   color: #f0eee8;
   border-radius: 8px;
   padding: .4em .75em .5em;
   font-size: 1.125rem;
-  text-align: center;
 }
 
 .link-card:hover .btn {
@@ -39,34 +40,42 @@ html {
   color: #f0eee8;
 }
 
-h2 {
+.btn-wrap {
+  text-align: center;
+  margin: 0 0 1rem;
+}
+
+.info {
+  padding-right: 1rem;
+}
+
+.info h2 {
   font-family: "Dosis", sans-serif;
   font-size: 1.5rem;
   margin: 0 0 1rem;
   padding: 0;
 }
 
-p {
+
+.info p {
   margin: 0 0 1rem;
   font-size: 1rem;
 }
 
-.btn-wrap {
-  margin: 0 0 1rem;
-  text-align: center;
-}
-
-dl {
+.list {
   padding: 0;
   margin: 0 0 1rem;
   font-size: .875rem;
 }
 
-dl dd {
+.list dd {
+  display: inline-block;
   padding: 0;
   margin: 0;
+  width: 6em;
 }
 
-dd dt {
+.list dt {
   display: inline-block;
+  min-width: 9em;
 }
