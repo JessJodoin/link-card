@@ -18,8 +18,7 @@ body {
   background-color: #dcd4cd;
   text-decoration: none;
   color: #512200;
-  padding-top: 1rem;
-  padding-left: 1rem;
+  padding: 1rem;
   border: 3px solid #9a816d;
   border-radius: 8px;
 }
@@ -46,11 +45,11 @@ body {
 
 .btn-wrap {
   text-align: center;
-  margin: 0 0 1rem;
+  margin: 0;
 }
 
 .info {
-  padding-right: 1rem;
+  border-bottom: 2px solid #9a816d;
 }
 
 .link-card h2 {
@@ -69,6 +68,13 @@ body {
   padding: 0;
   margin: 0 0 1rem;
   font-size: .875rem;
+  border-bottom: 2px solid #9a816d;
+}
+
+.list dl {
+  margin: 0;
+  padding: 1rem;
+  padding-left: 0;
 }
 
 .list dd {
