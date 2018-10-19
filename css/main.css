@@ -36,6 +36,8 @@ body {
   border-radius: 8px;
   padding: .4em .75em .5em;
   font-size: 1.125rem;
+  font-family: Dosis, sans-serif;
+  font-weight: bold;
 }
 
 .link-card:hover .btn {
